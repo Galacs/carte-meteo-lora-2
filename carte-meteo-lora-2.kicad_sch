@@ -6033,6 +6033,12 @@
 		(uuid "ab1725bf-b274-4677-8f78-8ea9050f46c2")
 	)
 	(junction
+		(at 226.06 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba55ce89-57d2-453a-9b78-06d0e5aca7cc")
+	)
+	(junction
 		(at 162.56 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6163,6 +6169,14 @@
 		(uuid "0bbe7b99-49ef-4081-bb27-3123ba3ab27f")
 	)
 	(no_connect
+		(at 170.18 81.28)
+		(uuid "34b6e1e5-23a5-4950-9be1-db362d3b3b12")
+	)
+	(no_connect
+		(at 236.22 119.38)
+		(uuid "355c322d-bf01-4061-a152-c5097e23dd40")
+	)
+	(no_connect
 		(at 114.3 100.33)
 		(uuid "3e333dda-dabb-484e-8a99-6fa59a1391a7")
 	)
@@ -6171,12 +6185,28 @@
 		(uuid "53f13c86-3635-438f-8420-ba03122cc6ce")
 	)
 	(no_connect
+		(at 236.22 114.3)
+		(uuid "6f32557f-bb4e-45e7-a1e7-c609532fbbf8")
+	)
+	(no_connect
 		(at 87.63 130.81)
 		(uuid "b5a80e6c-d176-4b54-9d46-09af0d50f1a1")
 	)
 	(no_connect
 		(at 114.3 130.81)
 		(uuid "be61f1bf-88a8-4a29-b3ae-5f11a41d1b5c")
+	)
+	(no_connect
+		(at 236.22 116.84)
+		(uuid "d88e98b6-7deb-4ae8-ad19-298574df8f9f")
+	)
+	(no_connect
+		(at 170.18 78.74)
+		(uuid "df8febd0-cfac-4436-8969-92b1c7a9a5e1")
+	)
+	(no_connect
+		(at 236.22 99.06)
+		(uuid "e7ea10de-3653-4655-8120-aec4c6ab361b")
 	)
 	(wire
 		(pts
@@ -7317,6 +7347,16 @@
 			(type default)
 		)
 		(uuid "63c73186-8942-4116-a175-caf5a957c3c7")
+	)
+	(wire
+		(pts
+			(xy 226.06 57.15) (xy 226.06 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63ead9bc-abbf-43b8-9470-54bff6968986")
 	)
 	(wire
 		(pts
@@ -9297,16 +9337,6 @@
 			(justify left bottom)
 		)
 		(uuid "6df35465-e4d7-49ca-8505-877fecff5e7f")
-	)
-	(label "VDD_SPI"
-		(at 227.33 58.42 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6e435b6a-9880-4d32-a928-86aa2bd5287c")
 	)
 	(label "SCK"
 		(at 165.1 93.98 0)
@@ -13583,7 +13613,7 @@
 		(dnp no)
 		(uuid "47b57ce9-b1de-4bd2-8755-d9736a7e9780")
 		(property "Reference" "C39"
-			(at 231.394 52.324 90)
+			(at 234.696 54.102 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13593,7 +13623,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 231.394 54.864 90)
+			(at 234.696 56.642 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20663,6 +20693,84 @@
 			(project "carte-meteo-lora-2"
 				(path "/14cd50fe-ec77-4829-bd74-9322c036cdc1"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 226.06 57.15 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d0201a4d-8a6f-4632-992b-5900708a3dd3")
+		(property "Reference" "#PWR092"
+			(at 226.06 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 227.584 52.578 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 226.06 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "44bbd49b-ad43-406d-836f-8b29c71ab06a")
+		)
+		(instances
+			(project "carte-meteo-lora-2"
+				(path "/14cd50fe-ec77-4829-bd74-9322c036cdc1"
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
