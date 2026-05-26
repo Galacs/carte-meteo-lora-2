@@ -4633,7 +4633,7 @@
 			(uuid "81f94329-d8a4-42c5-b59e-98049d795349")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.step"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5829,7 +5829,7 @@
 			(uuid "9af4b1e2-519b-4d85-913a-949c80d0f0b1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/UQFN-48-1EP_6x6mm_P0.4mm_EP4.45x4.45mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11905,15 +11905,15 @@
 			(uuid "99d66495-ec02-452c-bcb2-5b10d1116e33")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_BAT_Wireless_BWSMA-KWE-Z001.step"
+		(model "/home/galacs/glcs-kicad-libraries/3dmodels/GLCS.3dshapes/BWSMA-KWE-Z001.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 4.5 3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
@@ -14509,15 +14509,15 @@
 			(uuid "ecbaa7ae-b7cc-4616-b2d6-729b2ddc1961")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_BAT_Wireless_BWSMA-KWE-Z001.step"
+		(model "/home/galacs/glcs-kicad-libraries/3dmodels/GLCS.3dshapes/BWSMA-KWE-Z001.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 4.5 3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
@@ -16535,15 +16535,15 @@
 			(uuid "956df278-3599-4aaa-9aa6-a48d0c49ab9e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_BAT_Wireless_BWSMA-KWE-Z001.step"
+		(model "/home/galacs/glcs-kicad-libraries/3dmodels/GLCS.3dshapes/BWSMA-KWE-Z001.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 4.5 3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
