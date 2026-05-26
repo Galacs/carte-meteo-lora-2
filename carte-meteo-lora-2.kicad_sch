@@ -11641,7 +11641,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:SMA_BAT_Wireless_BWSMA-KWE-Z001"
 			(at 78.74 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -11956,7 +11956,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 81.5848 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -12037,7 +12037,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 91.44 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -12725,7 +12725,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GLCS:Murata_MM8930-2620"
 			(at 100.33 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -13218,7 +13218,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GLCS:Murata_MM8930-2620"
 			(at 109.22 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -13302,7 +13302,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 91.44 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -13962,7 +13962,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 113.538 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -14654,7 +14654,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GLCS:Murata_MM8930-2620"
 			(at 88.9 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -15116,7 +15116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 113.792 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -15274,7 +15274,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GLCS:Murata_MM8930-2620"
 			(at 73.66 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -17813,7 +17813,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 101.2952 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -18131,7 +18131,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GLCS:Murata_MM8930-2620"
 			(at 73.66 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -18217,7 +18217,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:SMA_BAT_Wireless_BWSMA-KWE-Z001"
 			(at 57.15 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -20116,7 +20116,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GLCS:Silicontra_SX1262ZTR8"
 			(at 96.52 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -20841,7 +20841,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GLCS:Murata_MM8930-2620"
 			(at 92.71 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -21788,7 +21788,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GLCS:Murata_MM8930-2620"
 			(at 109.22 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -21997,7 +21997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 84.328 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -22516,7 +22516,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:SMA_BAT_Wireless_BWSMA-KWE-Z001"
 			(at 57.15 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -23504,7 +23504,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GLCS:Murata_MM8930-2620"
 			(at 110.49 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -23714,7 +23714,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 84.582 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -24086,7 +24086,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GLCS:Murata_MM8930-2620"
 			(at 110.49 34.29 0)
 			(hide yes)
 			(show_name no)
