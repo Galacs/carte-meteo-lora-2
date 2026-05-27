@@ -6114,6 +6114,12 @@
 		(uuid "295cf059-7031-4614-9a4c-0bc13c134220")
 	)
 	(junction
+		(at 182.88 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c1ff0cb-e99d-4ee4-9c01-91c84a4529f4")
+	)
+	(junction
 		(at 212.09 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6192,12 +6198,6 @@
 		(uuid "88be3e05-47ab-4a0e-a701-c249f1b56b86")
 	)
 	(junction
-		(at 162.56 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8b0fb6cf-8261-4158-9793-0328b71b0225")
-	)
-	(junction
 		(at 223.52 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6234,7 +6234,13 @@
 		(uuid "99aed5f3-e285-47ec-b7bb-ed94f2b3b5e5")
 	)
 	(junction
-		(at 156.21 49.53)
+		(at 165.1 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b980c14-92bc-4af3-91d6-9202e388b3ea")
+	)
+	(junction
+		(at 158.75 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c1fb5db-e0e5-428f-852f-e16c82bc8b37")
@@ -6270,13 +6276,7 @@
 		(uuid "ba55ce89-57d2-453a-9b78-06d0e5aca7cc")
 	)
 	(junction
-		(at 162.56 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb071979-0ad7-4ed0-ba6d-f91708e6b867")
-	)
-	(junction
-		(at 156.21 60.96)
+		(at 158.75 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bcc77bb6-c658-4082-8092-b36cc56550c9")
@@ -6304,12 +6304,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c683facd-d7b6-4568-87df-a48c991d3abd")
-	)
-	(junction
-		(at 182.88 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c85a2cf5-bb5c-4422-8519-94ad7f2fae65")
 	)
 	(junction
 		(at 127 179.07)
@@ -6389,12 +6383,6 @@
 		(color 0 0 0 0)
 		(uuid "f613ede3-2d03-4f23-9296-d05701727517")
 	)
-	(junction
-		(at 168.91 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7cd8369-257e-4eaa-ac3a-0497acea27ea")
-	)
 	(no_connect
 		(at 104.14 100.33)
 		(uuid "0bbe7b99-49ef-4081-bb27-3123ba3ab27f")
@@ -6461,7 +6449,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 60.96) (xy 156.21 60.96)
+			(xy 165.1 60.96) (xy 158.75 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6528,16 +6516,6 @@
 			(type default)
 		)
 		(uuid "05e68f5b-530f-4822-b63f-953843de3d95")
-	)
-	(wire
-		(pts
-			(xy 168.91 49.53) (xy 168.91 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "060f5761-a4fb-40bc-b7c1-4729e7fbccf2")
 	)
 	(wire
 		(pts
@@ -6718,16 +6696,6 @@
 			(type default)
 		)
 		(uuid "178be901-cb30-4ecd-bb85-44347487f5f2")
-	)
-	(wire
-		(pts
-			(xy 168.91 60.96) (xy 162.56 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18ecc041-acbc-4df5-abd8-b15c3991596d")
 	)
 	(wire
 		(pts
@@ -7421,16 +7389,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 49.53) (xy 168.91 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "573225c2-84d1-4ff4-a85a-2a21b850b050")
-	)
-	(wire
-		(pts
 			(xy 59.69 177.8) (xy 59.69 179.07)
 		)
 		(stroke
@@ -7531,7 +7489,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 49.53) (xy 162.56 52.07)
+			(xy 165.1 49.53) (xy 165.1 52.07)
 		)
 		(stroke
 			(width 0)
@@ -7741,7 +7699,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 49.53) (xy 162.56 49.53)
+			(xy 165.1 49.53) (xy 175.26 49.53)
 		)
 		(stroke
 			(width 0)
@@ -8021,7 +7979,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 49.53) (xy 156.21 49.53)
+			(xy 165.1 49.53) (xy 158.75 49.53)
 		)
 		(stroke
 			(width 0)
@@ -8211,7 +8169,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 49.53) (xy 156.21 52.07)
+			(xy 158.75 49.53) (xy 158.75 52.07)
 		)
 		(stroke
 			(width 0)
@@ -8241,7 +8199,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 59.69) (xy 156.21 60.96)
+			(xy 158.75 59.69) (xy 158.75 60.96)
 		)
 		(stroke
 			(width 0)
@@ -8371,7 +8329,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 48.26) (xy 156.21 49.53)
+			(xy 158.75 48.26) (xy 158.75 49.53)
 		)
 		(stroke
 			(width 0)
@@ -8481,7 +8439,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 59.69) (xy 168.91 60.96)
+			(xy 165.1 59.69) (xy 165.1 60.96)
 		)
 		(stroke
 			(width 0)
@@ -8721,7 +8679,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 60.96) (xy 156.21 62.23)
+			(xy 158.75 60.96) (xy 158.75 62.23)
 		)
 		(stroke
 			(width 0)
@@ -8958,16 +8916,6 @@
 			(type default)
 		)
 		(uuid "d5b9ffbe-7164-4d30-a860-33a44f76ef92")
-	)
-	(wire
-		(pts
-			(xy 162.56 59.69) (xy 162.56 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d75cb934-21fd-4ab3-ab24-63c5f9c38e1e")
 	)
 	(wire
 		(pts
@@ -13111,7 +13059,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 156.21 55.88 0)
+		(at 158.75 55.88 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -13122,7 +13070,7 @@
 		(dnp no)
 		(uuid "3a61b977-47bf-41a4-89c9-e8dcf4da349d")
 		(property "Reference" "C10"
-			(at 153.67 50.8 0)
+			(at 155.194 53.594 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13133,7 +13081,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 153.67 53.34 0)
+			(at 155.194 56.134 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13144,7 +13092,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 155.2448 59.69 0)
+			(at 157.7848 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13155,7 +13103,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 55.88 0)
+			(at 158.75 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13166,7 +13114,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 156.21 55.88 0)
+			(at 158.75 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13177,7 +13125,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics "
-			(at 156.21 55.88 0)
+			(at 158.75 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13188,7 +13136,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL05A106MQ5NUNC"
-			(at 156.21 55.88 0)
+			(at 158.75 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13199,7 +13147,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 156.21 55.88 0)
+			(at 158.75 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13210,7 +13158,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C15525"
-			(at 156.21 55.88 0)
+			(at 158.75 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13237,7 +13185,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 62.23 0)
+		(at 158.75 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13248,7 +13196,7 @@
 		(fields_autoplaced yes)
 		(uuid "3add5b34-150b-4ff9-9e16-51633c729b60")
 		(property "Reference" "#PWR044"
-			(at 156.21 68.58 0)
+			(at 158.75 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13259,7 +13207,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 67.31 0)
+			(at 158.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13270,7 +13218,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 62.23 0)
+			(at 158.75 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13281,7 +13229,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 62.23 0)
+			(at 158.75 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13292,7 +13240,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 62.23 0)
+			(at 158.75 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16738,7 +16686,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 156.21 48.26 0)
+		(at 158.75 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16749,7 +16697,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c690931-ac7d-41d3-a5b1-1406b3f53d9f")
 		(property "Reference" "#PWR043"
-			(at 156.21 52.07 0)
+			(at 158.75 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16760,7 +16708,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 156.21 43.18 0)
+			(at 158.75 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16770,7 +16718,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 48.26 0)
+			(at 158.75 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16781,7 +16729,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 48.26 0)
+			(at 158.75 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16792,7 +16740,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 156.21 48.26 0)
+			(at 158.75 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19068,131 +19016,6 @@
 			(project "carte-meteo-lora-2"
 				(path "/14cd50fe-ec77-4829-bd74-9322c036cdc1"
 					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 162.56 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "98723b50-a6e7-4931-962b-e4200e927897")
-		(property "Reference" "C13"
-			(at 161.036 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0p3"
-			(at 161.036 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 163.5252 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 162.56 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic" "X"
-			(at 162.56 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C76909"
-			(at 162.56 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "muRata"
-			(at 162.56 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "GJM1555C1HR30WB01D"
-			(at 162.56 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "da99a5b8-58f0-41c3-a21c-6d37ceaeafbc")
-		)
-		(pin "1"
-			(uuid "c2faf04c-7225-45e4-87de-9827c37b5e99")
-		)
-		(instances
-			(project "carte-meteo-lora-2"
-				(path "/14cd50fe-ec77-4829-bd74-9322c036cdc1"
-					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -23451,7 +23274,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 168.91 55.88 0)
+		(at 165.1 55.88 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -23462,7 +23285,7 @@
 		(dnp no)
 		(uuid "d6ce0120-061b-4614-bbac-c1aa5c0cb016")
 		(property "Reference" "C14"
-			(at 163.83 50.8 0)
+			(at 168.91 53.848 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23473,7 +23296,7 @@
 			)
 		)
 		(property "Value" "0p8"
-			(at 163.83 53.34 0)
+			(at 168.91 56.388 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23484,7 +23307,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 167.9448 59.69 0)
+			(at 164.1348 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23495,7 +23318,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 55.88 0)
+			(at 165.1 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23506,7 +23329,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 168.91 55.88 0)
+			(at 165.1 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23517,7 +23340,7 @@
 			)
 		)
 		(property "Basic" "X"
-			(at 168.91 55.88 0)
+			(at 165.1 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23528,7 +23351,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C327032"
-			(at 168.91 55.88 0)
+			(at 165.1 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23539,7 +23362,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 168.91 55.88 0)
+			(at 165.1 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23550,7 +23373,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CC0402BRNPO9BNR80"
-			(at 168.91 55.88 0)
+			(at 165.1 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
