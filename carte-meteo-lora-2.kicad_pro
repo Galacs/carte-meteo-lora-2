@@ -678,6 +678,10 @@
       {
         "netclass": "RF",
         "pattern": "/ANT*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/D-"
       }
     ]
   },
