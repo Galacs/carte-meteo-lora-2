@@ -6285,12 +6285,6 @@
 		(uuid "39008363-afbd-4975-bb20-42516b400a99")
 	)
 	(junction
-		(at 130.81 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d5cd081-61be-406c-8831-c04292bb56cb")
-	)
-	(junction
 		(at 195.58 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7079,16 +7073,6 @@
 			(type default)
 		)
 		(uuid "318c3d1b-93d0-4b31-9969-f38897a9ce28")
-	)
-	(wire
-		(pts
-			(xy 130.81 161.29) (xy 130.81 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32226351-69fe-4b8f-b778-189d07d8e8ba")
 	)
 	(wire
 		(pts
@@ -8572,16 +8556,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 161.29) (xy 137.16 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abacdda0-c875-4a1c-9c00-2d616ca69de9")
-	)
-	(wire
-		(pts
 			(xy 82.55 76.2) (xy 82.55 77.47)
 		)
 		(stroke
@@ -8972,7 +8946,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 161.29) (xy 130.81 161.29)
+			(xy 125.73 161.29) (xy 137.16 161.29)
 		)
 		(stroke
 			(width 0)
@@ -20949,84 +20923,6 @@
 			(project "carte-meteo-lora-2"
 				(path "/14cd50fe-ec77-4829-bd74-9322c036cdc1"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 130.81 157.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b5f7301a-147b-49cb-9cff-38df6e3e8468")
-		(property "Reference" "H2"
-			(at 127.508 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 134.62 156.21 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
-			(at 130.81 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 130.81 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "076b1209-f77a-4e27-80e8-66818a4eac9e")
-		)
-		(instances
-			(project "carte-meteo-lora-2"
-				(path "/14cd50fe-ec77-4829-bd74-9322c036cdc1"
-					(reference "H2")
 					(unit 1)
 				)
 			)
