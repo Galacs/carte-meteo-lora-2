@@ -9744,6 +9744,16 @@
 		)
 		(uuid "429df20e-9085-46d6-b2d2-5f46f6c578fd")
 	)
+	(label "RGB1"
+		(at 242.57 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "469ed1df-dc31-4aa5-8b8e-c1f4f835e8c2")
+	)
 	(label "ANT_2G"
 		(at 124.46 34.29 180)
 		(effects
@@ -9774,16 +9784,6 @@
 		)
 		(uuid "55524790-f8ca-4324-8ed9-a8f92169d536")
 	)
-	(label "RST"
-		(at 242.57 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "598250e7-99bd-4d19-b374-3fcccb7deac2")
-	)
 	(label "MISO"
 		(at 165.1 99.06 0)
 		(effects
@@ -9803,16 +9803,6 @@
 			(justify left bottom)
 		)
 		(uuid "7016f2d6-a395-4084-863c-df0271cc88dc")
-	)
-	(label "RGB1"
-		(at 242.57 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "70fd80d9-83bc-4b7d-889a-c6a7a8005d77")
 	)
 	(label "DIO3"
 		(at 114.3 180.34 180)
@@ -9993,6 +9983,16 @@
 			(justify left bottom)
 		)
 		(uuid "e14f7c0b-61be-412f-b61e-78fcc902f07e")
+	)
+	(label "RST"
+		(at 242.57 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e215e940-40e8-4465-8e1a-1eb14b2c8fe0")
 	)
 	(label "XTAL_PL"
 		(at 261.62 149.86 90)
