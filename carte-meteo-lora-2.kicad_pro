@@ -678,6 +678,10 @@
       {
         "netclass": "RF",
         "pattern": "/ANT*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/D-"
       }
     ]
   },
@@ -851,7 +855,7 @@
         "uuid": "14cd50fe-ec77-4829-bd74-9322c036cdc1"
       }
     ],
-    "used_designators": "",
+    "used_designators": "H1-3,#PWR70",
     "variants": []
   },
   "sheets": [

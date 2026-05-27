@@ -4726,6 +4726,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Pers:HS96L03W2C03"
 			(pin_names
 				(offset 0.254)
@@ -5810,6 +5933,18 @@
 		(uuid "93577a8f-3f84-4d57-86b4-9c58ed59feb3")
 	)
 	(rectangle
+		(start 118.11 153.67)
+		(end 139.7 166.37)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "bd4e582d-613e-4021-ba5f-92e1a3270f88")
+	)
+	(rectangle
 		(start 215.9 142.24)
 		(end 245.11 163.83)
 		(stroke
@@ -5999,6 +6134,18 @@
 		)
 		(uuid "c13bc084-1883-4acc-9da0-c7f7194d8dbf")
 	)
+	(text "Mounting"
+		(exclude_from_sim no)
+		(at 126.238 164.338 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "cb2f4930-6d40-4cd3-9f5b-a77b99adfed9")
+	)
 	(text "128x64 OLED display"
 		(exclude_from_sim no)
 		(at 30.988 123.698 0)
@@ -6136,6 +6283,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39008363-afbd-4975-bb20-42516b400a99")
+	)
+	(junction
+		(at 130.81 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d5cd081-61be-406c-8831-c04292bb56cb")
 	)
 	(junction
 		(at 195.58 54.61)
@@ -6639,6 +6792,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 161.29) (xy 137.16 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10d30b5e-d0b8-4efe-983e-c3edde9a75ce")
+	)
+	(wire
+		(pts
 			(xy 40.64 187.96) (xy 39.37 187.96)
 		)
 		(stroke
@@ -6916,6 +7079,16 @@
 			(type default)
 		)
 		(uuid "318c3d1b-93d0-4b31-9969-f38897a9ce28")
+	)
+	(wire
+		(pts
+			(xy 130.81 161.29) (xy 130.81 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32226351-69fe-4b8f-b778-189d07d8e8ba")
 	)
 	(wire
 		(pts
@@ -8309,6 +8482,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 161.29) (xy 125.73 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0a2b081-1693-45ae-abcc-cc166a8122f9")
+	)
+	(wire
+		(pts
 			(xy 210.82 59.69) (xy 210.82 25.4)
 		)
 		(stroke
@@ -8386,6 +8569,16 @@
 			(type default)
 		)
 		(uuid "aba61a2e-5511-4d85-9a51-434b6f8d50cf")
+	)
+	(wire
+		(pts
+			(xy 130.81 161.29) (xy 137.16 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abacdda0-c875-4a1c-9c00-2d616ca69de9")
 	)
 	(wire
 		(pts
@@ -8776,6 +8969,16 @@
 			(type default)
 		)
 		(uuid "c88437ab-b166-4f01-9e6e-ae1db08ed077")
+	)
+	(wire
+		(pts
+			(xy 125.73 161.29) (xy 130.81 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c920ea92-6cda-4e5b-97fc-8b5cca048466")
 	)
 	(wire
 		(pts
@@ -11785,6 +11988,84 @@
 			(project "carte-meteo-lora-2"
 				(path "/14cd50fe-ec77-4829-bd74-9322c036cdc1"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 125.73 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1bf759d2-8040-4782-8922-01c18cbeedc8")
+		(property "Reference" "H1"
+			(at 122.174 159.004 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 129.54 156.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+			(at 125.73 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 125.73 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "681e4194-bf5d-4a90-a203-cc8cb85b3e42")
+		)
+		(instances
+			(project "carte-meteo-lora-2"
+				(path "/14cd50fe-ec77-4829-bd74-9322c036cdc1"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -20335,6 +20616,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 137.16 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b1bcfcd9-e020-467b-a16e-e46a09af6bc9")
+		(property "Reference" "#PWR070"
+			(at 137.16 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 136.906 167.132 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b0f74b3f-9a7b-464c-a41e-32bfb2cac432")
+		)
+		(instances
+			(project "carte-meteo-lora-2"
+				(path "/14cd50fe-ec77-4829-bd74-9322c036cdc1"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 139.7 72.39 0)
 		(unit 1)
@@ -20590,6 +20949,84 @@
 			(project "carte-meteo-lora-2"
 				(path "/14cd50fe-ec77-4829-bd74-9322c036cdc1"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 130.81 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b5f7301a-147b-49cb-9cff-38df6e3e8468")
+		(property "Reference" "H2"
+			(at 127.508 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 134.62 156.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+			(at 130.81 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 130.81 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "076b1209-f77a-4e27-80e8-66818a4eac9e")
+		)
+		(instances
+			(project "carte-meteo-lora-2"
+				(path "/14cd50fe-ec77-4829-bd74-9322c036cdc1"
+					(reference "H2")
 					(unit 1)
 				)
 			)
