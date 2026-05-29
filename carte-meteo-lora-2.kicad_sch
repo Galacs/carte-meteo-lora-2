@@ -6525,6 +6525,12 @@
 		(uuid "f29f41bb-a81e-43e0-a44e-2d81865b066d")
 	)
 	(junction
+		(at 168.91 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5e98e28-8966-4112-b6cf-1e406ce3a41e")
+	)
+	(junction
 		(at 45.72 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6547,10 +6553,6 @@
 		(uuid "2cc59db3-dd08-4735-b612-22269e36597d")
 	)
 	(no_connect
-		(at 170.18 81.28)
-		(uuid "34b6e1e5-23a5-4950-9be1-db362d3b3b12")
-	)
-	(no_connect
 		(at 114.3 100.33)
 		(uuid "3e333dda-dabb-484e-8a99-6fa59a1391a7")
 	)
@@ -6565,10 +6567,6 @@
 	(no_connect
 		(at 114.3 130.81)
 		(uuid "be61f1bf-88a8-4a29-b3ae-5f11a41d1b5c")
-	)
-	(no_connect
-		(at 170.18 78.74)
-		(uuid "df8febd0-cfac-4436-8969-92b1c7a9a5e1")
 	)
 	(no_connect
 		(at 236.22 99.06)
@@ -6833,6 +6831,16 @@
 			(type default)
 		)
 		(uuid "15a5a5a9-801c-4cfa-91c8-dc8323b7647a")
+	)
+	(wire
+		(pts
+			(xy 168.91 78.74) (xy 168.91 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "169068cf-edce-459b-9ce3-158661e8fb3b")
 	)
 	(wire
 		(pts
@@ -7976,6 +7984,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 78.74) (xy 170.18 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75589cad-efd5-466d-b410-c166f4c389ba")
+	)
+	(wire
+		(pts
 			(xy 195.58 54.61) (xy 195.58 55.88)
 		)
 		(stroke
@@ -9086,6 +9104,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 77.47) (xy 168.91 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d26f5104-662b-44af-b07f-bd69d60bf5b1")
+	)
+	(wire
+		(pts
 			(xy 57.15 69.85) (xy 57.15 71.12)
 		)
 		(stroke
@@ -9173,6 +9201,16 @@
 			(type default)
 		)
 		(uuid "d9f2116b-ab01-477f-8ea6-fbfdbd1663a1")
+	)
+	(wire
+		(pts
+			(xy 168.91 81.28) (xy 170.18 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da92d72b-b022-4917-8243-8dfd00c68004")
 	)
 	(wire
 		(pts
@@ -22706,6 +22744,83 @@
 			(project "carte-meteo-lora-2"
 				(path "/14cd50fe-ec77-4829-bd74-9322c036cdc1"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 168.91 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cf30fc34-16b7-4c4e-9ebf-58b0fdfc70b1")
+		(property "Reference" "#PWR071"
+			(at 168.91 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 164.338 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 168.91 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "565499a8-81b0-46e9-82b4-ea4bc011ba67")
+		)
+		(instances
+			(project "carte-meteo-lora-2"
+				(path "/14cd50fe-ec77-4829-bd74-9322c036cdc1"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
